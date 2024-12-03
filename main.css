@@ -1,0 +1,82 @@
+* {
+    animation: stalker-cursor-anim 400ms infinite;
+    color: white;
+    font-family: Verdana;
+}
+
+
+
+@keyframes stalker-cursor-anim {
+    12.5% {
+        cursor: url(Assets/cursor/frame_0.png),auto
+    }
+    25% {
+        cursor: url(Assets/cursor/frame_1.png),auto
+    }
+    37.5% {
+        cursor: url(Assets/cursor/frame_2.png),auto
+    }
+    50% {
+        cursor: url(Assets/cursor/frame_3.png),auto
+    }
+    62.5% {
+        cursor: url(Assets/cursor/frame_4.png),auto
+    }
+    75% {
+        cursor: url(Assets/cursor/frame_5.png),auto
+    }
+    87.5% {
+        cursor: url(Assets/cursor/frame_6.png),auto
+    }
+    100% {
+        cursor: url(Assets/cursor/frame_7.png),auto
+    }
+}
+
+.centered {
+    position:relative;
+
+    left:50%;
+    height:100%;
+    transform:translateX(-50%);
+    white-space: normal;
+
+    overflow-wrap: break-word;
+    padding-bottom: 40px;
+    display: inline-block;
+}
+
+.radio {
+    
+    border:  none;
+    background-color: rgba(255, 255, 255, 0);
+   
+}
+
+
+
+.main-body {
+    color: rgb(255,255,255);
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    background-color: rgba(43, 43, 43, 0.50);
+    backdrop-filter: blur(8px);
+    text-align: center;
+    width: 40%;
+    height: 1000px;
+
+    
+
+    margin: auto;
+}
+
+#BGVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -99;
+}
